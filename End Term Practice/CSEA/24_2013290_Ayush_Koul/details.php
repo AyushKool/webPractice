@@ -1,7 +1,7 @@
 <?php
 include_once('config.php');
 // session_start();
-// echo $_SESSION['username'];
+echo $_SESSION['username'];
 if (!isset($_SESSION['username'])) {
 	echo "Please log in";
 	exit();
